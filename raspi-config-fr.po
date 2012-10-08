@@ -11,9 +11,9 @@ msgid
 "at any time, some of the options may have difficulties if\n"
 "you have heavily customised your installation."
 msgstr
-"Cet outil fournit une manière simple de faire la configuration \n"
+"Cet outil fournit une manière simple de faire la configuration\n"
 "initiale du Rapsberry Pi. Bien qu'il puisse être exécuté à tout\n"
-"moment, des difficultés peuvent se produire pour certaines  \n"
+"moment, des difficultés peuvent se produire pour certaines\n"
 "options si votre installation a été fortement adaptée."
 
 #: raspi-config:57
@@ -24,19 +24,20 @@ msgstr "Début du redimensionnement de la partition"
 #: raspi-config:64
 #, sh-format
 msgid "Usage:"
-msgstr "Utilisation"
+msgstr "Utilisation:"
 
 #: raspi-config:71
 #, sh-format
 msgid ""
 "Root partition has been resized.\\nThe filesystem will be enlarged upon the "
 "next reboot"
-msgstr "La partition Root a été redimentionnée.\\nLe system de fichier sera modifier après un redémarrage."
+msgstr "La partition root a été redimentionnée.\\nLe système de fichier sera "
+"étendu après un redémarrage."
 
 #: raspi-config:115
 #, sh-format
 msgid "What would you like to do with overscan"
-msgstr "Que voulez-vous faire avec overscan"
+msgstr "Que voulez-vous faire avec l'overscan"
 
 #: raspi-config:127
 #, sh-format
@@ -56,7 +57,7 @@ msgstr "Rechargement du keymap. Cela peut prendre un certain temps\\n"
 #: raspi-config:148
 #, sh-format
 msgid "Set memory split.\\n"
-msgstr "Régler la mémoire"
+msgstr "Régler la répartition mémoire.\\n"
 
 #: raspi-config:182
 #, sh-format
@@ -67,8 +68,8 @@ msgid
 "http://elinux.org/RPi_Overclocking for more information."
 msgstr
 "Il faut savoir que l'overclocking peut réduire la durée de vie de votre\n"
-"Raspberry Pi. Si l'overclocking à un certain niveau, cela peut causer\n"
-"l'instabilité du système, essayez un plus modeste overclock. Voir\n"
+"Raspberry Pi. Si l'overclocking à un certain niveau cause\n"
+"l'instabilité de votre système, essayez un overclocking plus modeste. Voir\n"
 "http://elinux.org/RPi_Overclocking pour plus d'informations."
 
 #: raspi-config:188
@@ -79,7 +80,7 @@ msgstr "Choisissez un overlock prédéfini"
 #: raspi-config:189
 #, sh-format
 msgid "None"
-msgstr "Aucun."
+msgstr "Aucun"
 
 #: raspi-config:190
 #, sh-format
@@ -99,27 +100,27 @@ msgstr "Elevé"
 #: raspi-config:213
 #, sh-format
 msgid "Programmer error, unrecognised overclock preset"
-msgstr "Erreur de programmation, overclock prédéfini non reconnu"
+msgstr "Erreur de configuration, overclock prédéfini non reconnu"
 
 #: raspi-config:243
 #, sh-format
 msgid "Checking if shift key is held down"
-msgstr "Vérifier si la touche majuscule est enfoncée"
+msgstr "Vérifiez si la touche majuscule (shift) est enfoncée"
 
 #: raspi-config:246
 #, sh-format
 msgid " Yes. Not switching scaling governor"
-msgstr "Oui. pas d'échange du scaling governor"
+msgstr " Oui. Le scaling governor ne change pas"
 
 #: raspi-config:251
 #, sh-format
 msgid " No. Switching to ondemand scaling governor"
-msgstr "Non. Echange à la demande du scaling governor"
+msgstr " Non. Le scaling governor change à la demande"
 
 #: raspi-config:268
 #, sh-format
 msgid "Initial ssh key generation still running. Please wait and try again."
-msgstr "Première génération de clés ssh toujours en cours d'éxecution. S'il vous plaît attendre et essayez à nouveau."
+msgstr "Première génération de la clé ssh toujours en cours d'éxecution. Veuillez patienter et essayez à nouveau."
 
 #: raspi-config:271
 #, sh-format
@@ -140,12 +141,12 @@ msgstr "Serveur SSH désactivé"
 #: raspi-config:287
 #, sh-format
 msgid "Should we boot straight to desktop?"
-msgstr "Faut-il démarrer directement sur ​​le bureau?"
+msgstr "Faut-il démarrer directement sur le bureau?"
 
 #: raspi-config:304
 #, sh-format
 msgid "Sleeping 5 seconds before reloading raspi-config\\n"
-msgstr "Attendre 5 secondes avant de recharger Raspi-config\\n"
+msgstr "Attendre 5 secondes avant de relancer raspi-config\\n"
 
 #: raspi-config:318
 #, sh-format
@@ -155,7 +156,7 @@ msgstr "Voulez-vous redémarrer maintenant?"
 #: raspi-config:354
 #, sh-format
 msgid "Script must be run as root. Try sudo"
-msgstr "Le script doit être éxecuté en temps qu'administrateur. Essayé sudo"
+msgstr "Le script doit être éxecuté en temps qu'administrateur. Essayez sudo"
 
 #: raspi-config:369
 #, sh-format
@@ -165,7 +166,7 @@ msgstr "Information à propos de cet outil"
 #: raspi-config:370
 #, sh-format
 msgid "Expand root partition to fill SD card"
-msgstr "Elargir la partition racine"
+msgstr "Elargir la partition root pour utiliser toute la carte SD"
 
 #: raspi-config:371
 #, sh-format
@@ -185,17 +186,17 @@ msgstr "Modifier mot de passe de l'utilisateur pi"
 #: raspi-config:374
 #, sh-format
 msgid "Set locale"
-msgstr "Modifier votre emplacement"
+msgstr "Modifier les paramètres régionaux"
 
 #: raspi-config:375
 #, sh-format
 msgid "Set timezone"
-msgstr "Modifier l'heure"
+msgstr "Modifier le fuseau horaire"
 
 #: raspi-config:376
 #, sh-format
 msgid "Change memory split"
-msgstr "Changer mémoire split"
+msgstr "Changer la répartition mémoire"
 
 #: raspi-config:377
 #, sh-format
@@ -215,9 +216,9 @@ msgstr "Démarrer le bureau au démarrage?"
 #: raspi-config:380
 #, sh-format
 msgid "Try to upgrade raspi-config"
-msgstr "Mettre à niveau Raspi-config"
+msgstr "Mettre à jour raspi-config"
 
 #: raspi-config:386
 #, sh-format
 msgid "There was an error running do_"
-msgstr "Une erreur c'est produite pendent l'éxecution de: "
+msgstr "Une erreur s'est produite pendant l'exécution de: "
